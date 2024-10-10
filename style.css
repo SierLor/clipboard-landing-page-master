@@ -112,6 +112,7 @@ body{
 .segunda_seccion{
     display: flex;
     width: 100%;
+    margin-bottom: 160px;
     overflow: hidden;
 }
 
@@ -123,7 +124,7 @@ body{
 
 .segunda_seccion_info{
     padding: 70px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .segunda_seccion_div{
@@ -139,6 +140,37 @@ body{
 .segunda_seccion_parrafo{
     width: 64.5%;
     color: hsl(201, 11%, 66%);
+}
+
+
+/* -------------------TERCERA SECCION-------------------- */
+
+.tercera_seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tercera_seccion_title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.tercera_seccion_parrafo{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    color: hsl(201, 11%, 66%);
+    line-height: 23px;
+    margin-bottom: 110px;
+}
+
+.tercera_seccion_imagen{
+    width: 810px;
 }
 
 
